@@ -1,0 +1,1374 @@
+<metadata__catalog__entry>
+  <version>5.2.0.0</version>
+  <types class="tree-map">
+    <entry>
+      <org.mule.common.metadata.DefaultMetaDataKey>
+        <id>ShipOrder</id>
+        <displayName>ShipOrder</displayName>
+        <category>DEFAULT</category>
+        <metaDataKeyPropertiesManager>
+          <properties>
+            <org.mule.common.metadata.key.property.dsql.DsqlFromMetaDataKeyProperty/>
+          </properties>
+        </metaDataKeyPropertiesManager>
+      </org.mule.common.metadata.DefaultMetaDataKey>
+      <org.mule.common.metadata.DefaultXmlMetaDataModel>
+        <dataType>XML</dataType>
+        <metaDataModelPropertiesManager>
+          <properties>
+            <org.mule.common.metadata.property.TextBasedExampleMetaDataModelProperty/>
+            <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/>
+            <org.mule.common.metadata.property.StructureIdentifierMetaDataModelProperty>
+              <metaDataKey class="org.mule.common.metadata.DefaultMetaDataKey" reference="../../../../../org.mule.common.metadata.DefaultMetaDataKey"/>
+              <derivedStructure>false</derivedStructure>
+              <generatedStructure>false</generatedStructure>
+            </org.mule.common.metadata.property.StructureIdentifierMetaDataModelProperty>
+          </properties>
+        </metaDataModelPropertiesManager>
+        <fields>
+          <org.mule.common.metadata.DefaultMetaDataField>
+            <name>ns0:object</name>
+            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+              <dataType>XML</dataType>
+              <metaDataModelPropertiesManager>
+                <properties>
+                  <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                    <typeQName>
+                      <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                      <localPart>object</localPart>
+                      <prefix></prefix>
+                    </typeQName>
+                  </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                </properties>
+              </metaDataModelPropertiesManager>
+              <fields>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>ns0:recipients</name>
+                  <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                    <dataType>LIST</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                          <maxOccurs>2147483647</maxOccurs>
+                          <minOccurs>0</minOccurs>
+                        </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName>
+                            <namespaceURI>http://www.w3.org/2001/XMLSchema</namespaceURI>
+                            <localPart>string</localPart>
+                            <prefix></prefix>
+                          </typeQName>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties/>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <isArray>false</isArray>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                          <localPart>recipients</localPart>
+                          <prefix>ns0</prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>ns0:item</name>
+                  <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                    <dataType>LIST</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName>
+                            <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                            <localPart>item</localPart>
+                            <prefix></prefix>
+                          </typeQName>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                          <maxOccurs>2147483647</maxOccurs>
+                          <minOccurs>0</minOccurs>
+                        </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                    <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                      <dataType>XML</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties/>
+                      </metaDataModelPropertiesManager>
+                      <fields>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:recipients</name>
+                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                            <dataType>LIST</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                  <maxOccurs>2147483647</maxOccurs>
+                                  <minOccurs>0</minOccurs>
+                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                            <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                              <dataType>STRING</dataType>
+                              <metaDataModelPropertiesManager>
+                                <properties/>
+                              </metaDataModelPropertiesManager>
+                            </model>
+                            <isArray>false</isArray>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                  <localPart>recipients</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:row</name>
+                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                            <dataType>LIST</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName>
+                                    <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                    <localPart>row</localPart>
+                                    <prefix></prefix>
+                                  </typeQName>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                  <maxOccurs>2147483647</maxOccurs>
+                                  <minOccurs>0</minOccurs>
+                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                              <dataType>XML</dataType>
+                              <metaDataModelPropertiesManager>
+                                <properties/>
+                              </metaDataModelPropertiesManager>
+                              <fields>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>ns0:property</name>
+                                  <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                                    <dataType>LIST</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties>
+                                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          <typeQName>
+                                            <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                            <localPart>property</localPart>
+                                            <prefix></prefix>
+                                          </typeQName>
+                                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                          <maxOccurs>2147483647</maxOccurs>
+                                          <minOccurs>0</minOccurs>
+                                        </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                      </properties>
+                                    </metaDataModelPropertiesManager>
+                                    <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                                      <dataType>XML</dataType>
+                                      <metaDataModelPropertiesManager>
+                                        <properties/>
+                                      </metaDataModelPropertiesManager>
+                                      <fields>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>ns0:file</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>BYTE</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName>
+                                                    <namespaceURI>http://www.w3.org/2001/XMLSchema</namespaceURI>
+                                                    <localPart>base64Binary</localPart>
+                                                    <prefix></prefix>
+                                                  </typeQName>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                                  <localPart>file</localPart>
+                                                  <prefix>ns0</prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>ns0:sfields</name>
+                                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                                            <dataType>LIST</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                                  <maxOccurs>2147483647</maxOccurs>
+                                                  <minOccurs>0</minOccurs>
+                                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel" reference="../../../.."/>
+                                            <isArray>false</isArray>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                                  <localPart>sfields</localPart>
+                                                  <prefix>ns0</prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>type</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>STRING</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI></namespaceURI>
+                                                  <localPart>type</localPart>
+                                                  <prefix></prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <label>@type</label>
+                                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                <isAttribute>true</isAttribute>
+                                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>name</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>STRING</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI></namespaceURI>
+                                                  <localPart>name</localPart>
+                                                  <prefix></prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <label>@name</label>
+                                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                <isAttribute>true</isAttribute>
+                                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>value</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>STRING</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI></namespaceURI>
+                                                  <localPart>value</localPart>
+                                                  <prefix></prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <label>@value</label>
+                                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                <isAttribute>true</isAttribute>
+                                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                      </fields>
+                                      <rootElement>
+                                        <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                        <localPart>ShipOrder</localPart>
+                                        <prefix>ns0</prefix>
+                                      </rootElement>
+                                      <schemas class="org.mule.common.metadata.StringBasedSchemaProvider">
+                                        <schemas>
+                                          <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap12bind=&quot;http://schemas.xmlsoap.org/wsdl/soap12/&quot; xmlns:soapbind=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns:tns=&quot;http://exchange.mule.ptr/&quot; xmlns:xs1=&quot;http://exchange.mule.ptr/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsd1=&quot;http://exchange.mule.ptr/&quot; attributeFormDefault=&quot;unqualified&quot; elementFormDefault=&quot;qualified&quot; targetNamespace=&quot;http://exchange.mule.ptr/&quot;&gt;&#xd;
+&lt;xs:complexType name=&quot;complextype&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:simpletype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;recipients&quot; nillable=&quot;true&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;item&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:complextype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;row&quot; nillable=&quot;true&quot; type=&quot;tns:row&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;object&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:complextype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;item&quot; nillable=&quot;true&quot; type=&quot;tns:item&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;xs:attribute name=&quot;reply&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;xs:attribute name=&quot;sender&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;property&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:simpletype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element minOccurs=&quot;0&quot; name=&quot;file&quot; nillable=&quot;true&quot; type=&quot;xs:base64Binary&quot;/&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;sfields&quot; nillable=&quot;true&quot; type=&quot;tns:property&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;&#xd;
+&lt;xs:attribute name=&quot;value&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;row&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;property&quot; nillable=&quot;true&quot; type=&quot;tns:property&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;simpletype&quot;&gt;&#xd;
+&lt;xs:attribute name=&quot;type&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:element name=&quot;GetObject&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;GetObjectResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;SetObject&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;SetObjectResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;GetPrintForms&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;GetPrintFormsResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;ShipOrder&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;ShipOrderResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;/xs:schema&gt;</string>
+                                        </schemas>
+                                        <encoding>windows-1251</encoding>
+                                        <baseUri>file:/C:/Users/Бондаренко_А_С/AnypointStudio/workspace_6.1/exchange_prod/src/main/api/exchangeTEST.wsdl</baseUri>
+                                      </schemas>
+                                      <namespaceManager>
+                                        <namespacePrefix>
+                                          <entry>
+                                            <string>http://exchange.mule.ptr/</string>
+                                            <string>ns0</string>
+                                          </entry>
+                                        </namespacePrefix>
+                                      </namespaceManager>
+                                    </model>
+                                    <isArray>false</isArray>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                          <localPart>property</localPart>
+                                          <prefix>ns0</prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                              </fields>
+                              <rootElement>
+                                <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                <localPart>ShipOrder</localPart>
+                                <prefix>ns0</prefix>
+                              </rootElement>
+                              <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas"/>
+                              <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+                            </model>
+                            <isArray>false</isArray>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                  <localPart>row</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>type</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name reference="../../../../../org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/metaDataFieldPropertyManager/properties/org.mule.common.metadata.property.QNameMetaDataProperty/name"/>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                <label>@type</label>
+                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                <isAttribute>true</isAttribute>
+                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                      </fields>
+                      <rootElement>
+                        <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                        <localPart>ShipOrder</localPart>
+                        <prefix>ns0</prefix>
+                      </rootElement>
+                      <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas"/>
+                      <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+                    </model>
+                    <isArray>false</isArray>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                          <localPart>item</localPart>
+                          <prefix>ns0</prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>type</name>
+                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                    <dataType>STRING</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name reference="../../../../../org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/metaDataFieldPropertyManager/properties/org.mule.common.metadata.property.QNameMetaDataProperty/name"/>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <label>@type</label>
+                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                        <isAttribute>true</isAttribute>
+                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>reply</name>
+                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                    <dataType>STRING</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI></namespaceURI>
+                          <localPart>reply</localPart>
+                          <prefix></prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <label>@reply</label>
+                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                        <isAttribute>true</isAttribute>
+                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>sender</name>
+                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                    <dataType>STRING</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI></namespaceURI>
+                          <localPart>sender</localPart>
+                          <prefix></prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <label>@sender</label>
+                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                        <isAttribute>true</isAttribute>
+                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+              </fields>
+              <rootElement>
+                <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                <localPart>ShipOrder</localPart>
+                <prefix>ns0</prefix>
+              </rootElement>
+              <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas"/>
+              <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+            </model>
+            <accessType>READ_WRITE</accessType>
+            <metaDataFieldPropertyManager>
+              <properties>
+                <org.mule.common.metadata.property.QNameMetaDataProperty>
+                  <name>
+                    <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                    <localPart>object</localPart>
+                    <prefix>ns0</prefix>
+                  </name>
+                </org.mule.common.metadata.property.QNameMetaDataProperty>
+              </properties>
+            </metaDataFieldPropertyManager>
+          </org.mule.common.metadata.DefaultMetaDataField>
+        </fields>
+        <rootElement>
+          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+          <localPart>ShipOrder</localPart>
+          <prefix>ns0</prefix>
+        </rootElement>
+        <schemas class="org.mule.common.metadata.StringBasedSchemaProvider">
+          <schemas reference="../../fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas/schemas"/>
+          <encoding reference="../../fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas/encoding"/>
+          <baseUri>file:/C:/Users/Бондаренко_А_С/AnypointStudio/workspace_6.1/exchange_prod/src/main/api/exchangeTEST.wsdl</baseUri>
+        </schemas>
+        <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+      </org.mule.common.metadata.DefaultXmlMetaDataModel>
+    </entry>
+    <entry>
+      <org.mule.common.metadata.DefaultMetaDataKey>
+        <id>ShipOrderResponse</id>
+        <displayName>ShipOrderResponse</displayName>
+        <category>DEFAULT</category>
+        <metaDataKeyPropertiesManager>
+          <properties>
+            <org.mule.common.metadata.key.property.dsql.DsqlFromMetaDataKeyProperty/>
+          </properties>
+        </metaDataKeyPropertiesManager>
+      </org.mule.common.metadata.DefaultMetaDataKey>
+      <org.mule.common.metadata.DefaultXmlMetaDataModel>
+        <dataType>XML</dataType>
+        <metaDataModelPropertiesManager>
+          <properties>
+            <org.mule.common.metadata.property.TextBasedExampleMetaDataModelProperty/>
+            <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/>
+            <org.mule.common.metadata.property.StructureIdentifierMetaDataModelProperty>
+              <metaDataKey class="org.mule.common.metadata.DefaultMetaDataKey" reference="../../../../../org.mule.common.metadata.DefaultMetaDataKey"/>
+              <derivedStructure>false</derivedStructure>
+              <generatedStructure>false</generatedStructure>
+            </org.mule.common.metadata.property.StructureIdentifierMetaDataModelProperty>
+          </properties>
+        </metaDataModelPropertiesManager>
+        <fields>
+          <org.mule.common.metadata.DefaultMetaDataField>
+            <name>ns0:return</name>
+            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+              <dataType>XML</dataType>
+              <metaDataModelPropertiesManager>
+                <properties>
+                  <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                    <typeQName>
+                      <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                      <localPart>object</localPart>
+                      <prefix></prefix>
+                    </typeQName>
+                  </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                </properties>
+              </metaDataModelPropertiesManager>
+              <fields>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>ns0:recipients</name>
+                  <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                    <dataType>LIST</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                          <maxOccurs>2147483647</maxOccurs>
+                          <minOccurs>0</minOccurs>
+                        </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                    <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                      <dataType>STRING</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties/>
+                      </metaDataModelPropertiesManager>
+                    </model>
+                    <isArray>false</isArray>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                          <localPart>recipients</localPart>
+                          <prefix>ns0</prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>ns0:item</name>
+                  <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                    <dataType>LIST</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName>
+                            <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                            <localPart>item</localPart>
+                            <prefix></prefix>
+                          </typeQName>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                        <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                          <maxOccurs>2147483647</maxOccurs>
+                          <minOccurs>0</minOccurs>
+                        </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                    <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                      <dataType>XML</dataType>
+                      <metaDataModelPropertiesManager>
+                        <properties/>
+                      </metaDataModelPropertiesManager>
+                      <fields>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:recipients</name>
+                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                            <dataType>LIST</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                  <maxOccurs>2147483647</maxOccurs>
+                                  <minOccurs>0</minOccurs>
+                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                            <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                              <dataType>STRING</dataType>
+                              <metaDataModelPropertiesManager>
+                                <properties/>
+                              </metaDataModelPropertiesManager>
+                            </model>
+                            <isArray>false</isArray>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                  <localPart>recipients</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>ns0:row</name>
+                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                            <dataType>LIST</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName>
+                                    <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                    <localPart>row</localPart>
+                                    <prefix></prefix>
+                                  </typeQName>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                  <maxOccurs>2147483647</maxOccurs>
+                                  <minOccurs>0</minOccurs>
+                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                              <dataType>XML</dataType>
+                              <metaDataModelPropertiesManager>
+                                <properties/>
+                              </metaDataModelPropertiesManager>
+                              <fields>
+                                <org.mule.common.metadata.DefaultMetaDataField>
+                                  <name>ns0:property</name>
+                                  <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                                    <dataType>LIST</dataType>
+                                    <metaDataModelPropertiesManager>
+                                      <properties>
+                                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                          <typeQName>
+                                            <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                            <localPart>property</localPart>
+                                            <prefix></prefix>
+                                          </typeQName>
+                                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                        <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                          <maxOccurs>2147483647</maxOccurs>
+                                          <minOccurs>0</minOccurs>
+                                        </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                      </properties>
+                                    </metaDataModelPropertiesManager>
+                                    <model class="org.mule.common.metadata.DefaultXmlMetaDataModel">
+                                      <dataType>XML</dataType>
+                                      <metaDataModelPropertiesManager>
+                                        <properties/>
+                                      </metaDataModelPropertiesManager>
+                                      <fields>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>ns0:file</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>BYTE</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                                  <localPart>file</localPart>
+                                                  <prefix>ns0</prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>ns0:sfields</name>
+                                          <model class="org.mule.common.metadata.DefaultListMetaDataModel">
+                                            <dataType>LIST</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                <org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                                  <maxOccurs>2147483647</maxOccurs>
+                                                  <minOccurs>0</minOccurs>
+                                                </org.mule.common.metadata.property.xml.UnboundMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                            <model class="org.mule.common.metadata.DefaultXmlMetaDataModel" reference="../../../.."/>
+                                            <isArray>false</isArray>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                                  <localPart>sfields</localPart>
+                                                  <prefix>ns0</prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>type</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>STRING</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI></namespaceURI>
+                                                  <localPart>type</localPart>
+                                                  <prefix></prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <label>@type</label>
+                                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                <isAttribute>true</isAttribute>
+                                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>name</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>STRING</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI></namespaceURI>
+                                                  <localPart>name</localPart>
+                                                  <prefix></prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <label>@name</label>
+                                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                <isAttribute>true</isAttribute>
+                                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                        <org.mule.common.metadata.DefaultMetaDataField>
+                                          <name>value</name>
+                                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                                            <dataType>STRING</dataType>
+                                            <metaDataModelPropertiesManager>
+                                              <properties>
+                                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                                  <typeQName reference="../../../../../../../../../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                              </properties>
+                                            </metaDataModelPropertiesManager>
+                                          </model>
+                                          <accessType>READ_WRITE</accessType>
+                                          <metaDataFieldPropertyManager>
+                                            <properties>
+                                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                                <name>
+                                                  <namespaceURI></namespaceURI>
+                                                  <localPart>value</localPart>
+                                                  <prefix></prefix>
+                                                </name>
+                                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                                <label>@value</label>
+                                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                                <isAttribute>true</isAttribute>
+                                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                            </properties>
+                                          </metaDataFieldPropertyManager>
+                                        </org.mule.common.metadata.DefaultMetaDataField>
+                                      </fields>
+                                      <rootElement>
+                                        <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                        <localPart>ShipOrderResponse</localPart>
+                                        <prefix>ns0</prefix>
+                                      </rootElement>
+                                      <schemas class="org.mule.common.metadata.StringBasedSchemaProvider">
+                                        <schemas>
+                                          <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap12bind=&quot;http://schemas.xmlsoap.org/wsdl/soap12/&quot; xmlns:soapbind=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns:tns=&quot;http://exchange.mule.ptr/&quot; xmlns:xs1=&quot;http://exchange.mule.ptr/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsd1=&quot;http://exchange.mule.ptr/&quot; attributeFormDefault=&quot;unqualified&quot; elementFormDefault=&quot;qualified&quot; targetNamespace=&quot;http://exchange.mule.ptr/&quot;&gt;&#xd;
+&lt;xs:complexType name=&quot;complextype&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:simpletype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;recipients&quot; nillable=&quot;true&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;item&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:complextype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;row&quot; nillable=&quot;true&quot; type=&quot;tns:row&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;object&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:complextype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;item&quot; nillable=&quot;true&quot; type=&quot;tns:item&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;xs:attribute name=&quot;reply&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;xs:attribute name=&quot;sender&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;property&quot;&gt;&#xd;
+&lt;xs:complexContent&gt;&#xd;
+&lt;xs:extension base=&quot;tns:simpletype&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element minOccurs=&quot;0&quot; name=&quot;file&quot; nillable=&quot;true&quot; type=&quot;xs:base64Binary&quot;/&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;sfields&quot; nillable=&quot;true&quot; type=&quot;tns:property&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;&#xd;
+&lt;xs:attribute name=&quot;value&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;/xs:extension&gt;&#xd;
+&lt;/xs:complexContent&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;row&quot;&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot; name=&quot;property&quot; nillable=&quot;true&quot; type=&quot;tns:property&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:complexType name=&quot;simpletype&quot;&gt;&#xd;
+&lt;xs:attribute name=&quot;type&quot; type=&quot;xs:string&quot;/&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;xs:element name=&quot;GetObject&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;GetObjectResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;SetObject&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;SetObjectResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;GetPrintForms&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;GetPrintFormsResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;ShipOrder&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;object&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;xs:element name=&quot;ShipOrderResponse&quot;&gt;&#xd;
+&lt;xs:complexType&gt;&#xd;
+&lt;xs:sequence&gt;&#xd;
+&lt;xs:element name=&quot;return&quot; type=&quot;tns:object&quot;/&gt;&#xd;
+&lt;/xs:sequence&gt;&#xd;
+&lt;/xs:complexType&gt;&#xd;
+&lt;/xs:element&gt;&#xd;
+&lt;/xs:schema&gt;</string>
+                                        </schemas>
+                                        <encoding reference="../../../../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas/encoding"/>
+                                        <baseUri>file:/C:/Users/Бондаренко_А_С/AnypointStudio/workspace_6.1/exchange_prod/src/main/api/exchangeTEST.wsdl</baseUri>
+                                      </schemas>
+                                      <namespaceManager>
+                                        <namespacePrefix>
+                                          <entry>
+                                            <string>http://exchange.mule.ptr/</string>
+                                            <string>ns0</string>
+                                          </entry>
+                                        </namespacePrefix>
+                                      </namespaceManager>
+                                    </model>
+                                    <isArray>false</isArray>
+                                  </model>
+                                  <accessType>READ_WRITE</accessType>
+                                  <metaDataFieldPropertyManager>
+                                    <properties>
+                                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                        <name>
+                                          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                          <localPart>property</localPart>
+                                          <prefix>ns0</prefix>
+                                        </name>
+                                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                                    </properties>
+                                  </metaDataFieldPropertyManager>
+                                </org.mule.common.metadata.DefaultMetaDataField>
+                              </fields>
+                              <rootElement>
+                                <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                <localPart>ShipOrderResponse</localPart>
+                                <prefix>ns0</prefix>
+                              </rootElement>
+                              <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas"/>
+                              <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+                            </model>
+                            <isArray>false</isArray>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name>
+                                  <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                                  <localPart>row</localPart>
+                                  <prefix>ns0</prefix>
+                                </name>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                        <org.mule.common.metadata.DefaultMetaDataField>
+                          <name>type</name>
+                          <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                            <dataType>STRING</dataType>
+                            <metaDataModelPropertiesManager>
+                              <properties>
+                                <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                                  <typeQName reference="../../../../../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                                </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                              </properties>
+                            </metaDataModelPropertiesManager>
+                          </model>
+                          <accessType>READ_WRITE</accessType>
+                          <metaDataFieldPropertyManager>
+                            <properties>
+                              <org.mule.common.metadata.property.QNameMetaDataProperty>
+                                <name reference="../../../../../org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/metaDataFieldPropertyManager/properties/org.mule.common.metadata.property.QNameMetaDataProperty/name"/>
+                              </org.mule.common.metadata.property.QNameMetaDataProperty>
+                              <org.mule.common.metadata.property.LabelMetaDataProperty>
+                                <label>@type</label>
+                              </org.mule.common.metadata.property.LabelMetaDataProperty>
+                              <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                                <isAttribute>true</isAttribute>
+                              </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                            </properties>
+                          </metaDataFieldPropertyManager>
+                        </org.mule.common.metadata.DefaultMetaDataField>
+                      </fields>
+                      <rootElement>
+                        <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                        <localPart>ShipOrderResponse</localPart>
+                        <prefix>ns0</prefix>
+                      </rootElement>
+                      <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas"/>
+                      <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+                    </model>
+                    <isArray>false</isArray>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                          <localPart>item</localPart>
+                          <prefix>ns0</prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>type</name>
+                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                    <dataType>STRING</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name reference="../../../../../org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[3]/metaDataFieldPropertyManager/properties/org.mule.common.metadata.property.QNameMetaDataProperty/name"/>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <label>@type</label>
+                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                        <isAttribute>true</isAttribute>
+                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>reply</name>
+                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                    <dataType>STRING</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI></namespaceURI>
+                          <localPart>reply</localPart>
+                          <prefix></prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <label>@reply</label>
+                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                        <isAttribute>true</isAttribute>
+                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+                <org.mule.common.metadata.DefaultMetaDataField>
+                  <name>sender</name>
+                  <model class="org.mule.common.metadata.DefaultSimpleMetaDataModel">
+                    <dataType>STRING</dataType>
+                    <metaDataModelPropertiesManager>
+                      <properties>
+                        <org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                          <typeQName reference="../../../../../../../../../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/metaDataModelPropertiesManager/properties/org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty/typeQName"/>
+                        </org.mule.common.metadata.property.xml.SchemaTypeMetaDataProperty>
+                      </properties>
+                    </metaDataModelPropertiesManager>
+                  </model>
+                  <accessType>READ_WRITE</accessType>
+                  <metaDataFieldPropertyManager>
+                    <properties>
+                      <org.mule.common.metadata.property.QNameMetaDataProperty>
+                        <name>
+                          <namespaceURI></namespaceURI>
+                          <localPart>sender</localPart>
+                          <prefix></prefix>
+                        </name>
+                      </org.mule.common.metadata.property.QNameMetaDataProperty>
+                      <org.mule.common.metadata.property.LabelMetaDataProperty>
+                        <label>@sender</label>
+                      </org.mule.common.metadata.property.LabelMetaDataProperty>
+                      <org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                        <isAttribute>true</isAttribute>
+                      </org.mule.common.metadata.property.xml.AttributeMetaDataFieldProperty>
+                    </properties>
+                  </metaDataFieldPropertyManager>
+                </org.mule.common.metadata.DefaultMetaDataField>
+              </fields>
+              <rootElement>
+                <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                <localPart>ShipOrderResponse</localPart>
+                <prefix>ns0</prefix>
+              </rootElement>
+              <schemas class="org.mule.common.metadata.StringBasedSchemaProvider" reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas"/>
+              <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+            </model>
+            <accessType>READ_WRITE</accessType>
+            <metaDataFieldPropertyManager>
+              <properties>
+                <org.mule.common.metadata.property.QNameMetaDataProperty>
+                  <name>
+                    <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+                    <localPart>return</localPart>
+                    <prefix>ns0</prefix>
+                  </name>
+                </org.mule.common.metadata.property.QNameMetaDataProperty>
+              </properties>
+            </metaDataFieldPropertyManager>
+          </org.mule.common.metadata.DefaultMetaDataField>
+        </fields>
+        <rootElement>
+          <namespaceURI>http://exchange.mule.ptr/</namespaceURI>
+          <localPart>ShipOrderResponse</localPart>
+          <prefix>ns0</prefix>
+        </rootElement>
+        <schemas class="org.mule.common.metadata.StringBasedSchemaProvider">
+          <schemas reference="../../fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas/schemas"/>
+          <encoding reference="../../../../entry/org.mule.common.metadata.DefaultXmlMetaDataModel/fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/schemas/encoding"/>
+          <baseUri>file:/C:/Users/Бондаренко_А_С/AnypointStudio/workspace_6.1/exchange_prod/src/main/api/exchangeTEST.wsdl</baseUri>
+        </schemas>
+        <namespaceManager reference="../fields/org.mule.common.metadata.DefaultMetaDataField/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField[2]/model/model/fields/org.mule.common.metadata.DefaultMetaDataField/model/model/namespaceManager"/>
+      </org.mule.common.metadata.DefaultXmlMetaDataModel>
+    </entry>
+  </types>
+  <connectorName>Test-Ship-Order</connectorName>
+</metadata__catalog__entry>
